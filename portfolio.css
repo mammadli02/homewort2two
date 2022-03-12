@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn02.plentymarkets.com/epz0zx1qug71/item/images/199320/full/Vliestapete-Aquarell-Putz-cremebeige-Blush-048732-199320.jpg);
+    height: 100vh;
+
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    flex: 100%;
+    height: 80px;
+
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    height: 80px;
+}
+
+
+ul {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+
+
+li {
+    border-left: 1px solid rgb(204, 201, 201);
+    list-style: none;
+}
+
+li:first-child {
+    border-left: none;
+}
+
+
+li a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 60px;
+    flex: 100%;
+
+
+
+}
+
+.mainpart {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.main15 {
+    flex: 60%;
+
+}
+
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: lightseagreen;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 50px;
+    border-bottom: 2px solid rgb(204, 201, 201);
+}
+
+
+
+
+
+.part2 {
+
+
+    display: flex;
+
+}
+
+.part5 {
+    display: flex;
+}
+
+.part3 {
+    position: relative;
+    line-height: 35px;
+    color: rgb(156, 156, 156);
+
+    padding: 10px;
+}
+
+
+
+.part3 img {
+
+    width: 200px;
+    height: 110px;
+
+
+}
+
+.part8 {
+    position: relative;
+    line-height: 35px;
+    color: rgb(156, 156, 156);
+
+    padding: 10px;
+}
+
+.part8 img {
+    width: 200px;
+    height: 110px;
+}
+
+h4 {
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    height: 25px;
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.part {
+
+
+    margin-top: 40px;
+    height: 300px;
+    background-color: white;
+}
+
+.main16 {
+    flex: 40%;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: bold;
+    color: lightseagreen;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 90%;
+    height: 50px;
+    border-bottom: 2px solid rgb(204, 201, 201);
+}
+
+.part6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+a img {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
+
+}
+
+footer {
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    height: 100px;
+    font-size: 20px;
+    clear: both;
+
+    background-color: rgb(100, 110, 121);
+    border-top: 5px solid rgb(13, 134, 114);
+}
